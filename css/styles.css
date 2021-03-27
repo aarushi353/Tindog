@@ -43,10 +43,15 @@ color: #ffffff;
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
 }
 /* Features section */
 #features{
-    margin: 7% 12%;
+    margin: 7% 15%;
+    background-color: #ffffff;
+    z-index: 1;
+    position: relative;
+
 }
 .feature{
     text-align: center;
@@ -86,10 +91,6 @@ color: #ffffff;
     #pricing{
         margin: 7% 12%;
     }
-    .card-{
-        text-align: center;
-            
-    }
-    .top-pricing{
-
-    }
+.pricing-column{
+    padding: 3% 2%;
+}
