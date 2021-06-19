@@ -12,6 +12,7 @@ h3{
 p{
     color: #8f8f8f;
 }
+/* Title */
 #title{
 background-color: #ff4c68;
 color: #ffffff;
@@ -26,6 +27,8 @@ color: #ffffff;
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 4.5rem;
+    font-style: normal;
+    font-weight: bolder;
     padding-left: 230px;
 }
 .nav-item{
@@ -33,7 +36,7 @@ color: #ffffff;
 }
 .nav-link{
     font-size: 1.2rem;
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 /* Buttons */
 .download-button{
@@ -57,8 +60,6 @@ color: #ffffff;
 #features{
     margin: 7% 15%;
     background-color: #ffffff;
-    position: relative;
-    z-index: 1;
 }
 .feature{
     text-align: center;
